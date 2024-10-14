@@ -2,10 +2,9 @@ package StepDefinitions;
 
 import Pages.AddToCartPage;
 import io.appium.java_client.android.AndroidDriver;;
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+import io.cucumber.java.en.*;
+import io.cucumber.junit.Cucumber;
+import org.junit.runner.RunWith;
 
 import java.util.concurrent.TimeUnit;
 
